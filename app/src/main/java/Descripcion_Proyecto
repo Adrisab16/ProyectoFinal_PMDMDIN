@@ -1,0 +1,88 @@
+Ideas Factibles:
+
+1. Simulador de Gacha:
+- Desarrolla un simulador de "gacha" que permita a los usuarios probar suerte virtualmente para obtener personajes o elementos aleatorios de juegos.
+
+2. Entrenador de Rutinas Gamificadas:
+- Desarrolla una aplicación que motive a los usuarios a hacer ejercicio mediante rutinas gamificadas inspiradas en personajes de videojuegos y anime.
+
+3. Un higher or lower pero de anime y videojuegos (Diferentes categorías, como numero de copias vendidas, cantidad de personajes, etc.)
+
+4. Adivina el Personaje:
+- Desarrolla un juego simple en el que los usuarios deben adivinar el nombre del personaje de anime o videojuego basándose en imágenes o descripciones.
+
+
+Idea escogida --> 1
+
+Simulador de Gacha (Descripción):
+
+Ideas generales:
+
+- Los items que se pueden obtener podrán ser de tipo Personaje / Armas / Lugares / Videojuego / Anime
+
+- Tendrá que contar con un inicio de sesión para vincular los items obtenidos con el usuario
+
+- Habrá opción de reset de la base de datos (perderá todos los personajes obtenidos)
+
+- Habrán 2 modos principales: Anime y Videojuegos. Estos modos se subdividiran en General, Personajes, Armas
+
+- Cada Item obtenible contará con una puntuación (La piramide de rareza será: R, SR, SSR, UR, LR o por estrellas de 1 al 5)
+
+- Depende de la rareza, el contorno de la carta tendrá algún color característico
+
+- La carta (pj personaje anime) contendrá: Nombre, Calidad, imagen, color rareza y descripción
+
+- Las cartas disponibles, estarán almacenadas en una BD.
+
+- Las cartas obtenidas, estarán almacenadas en la BD, asociadas al usuario.
+
+- El flow de la UI será el siguiente: Inicio > Sign-In/Sign-Up > Pagina de explicación de la App, una opción en una barra de
+  navegación superior donde podamos elegir si acceder a la biblioteca de items obtenidos o al apartado de gacha >
+
+Elección del tipo de gacha con 3 botones centrados(General/Anime/Videojuegos) > 3 botones (Probar suerte > Iniciará el gacha // Mi biblioteca > Vamos
+a la visualización de los items // Borrar biblioteca (Elimina los items obtenidos))
+
+Elección del tipo de biblioteca con 3 botones centrados(General/Anime/Videojuegos) > Visualización de los Items obtenidos según el botón presionado
+
+- Cada carta deberá tener una información detallada al presionarla.
+
+- Habrán un número limitado de veces que podrás presionar el botón para usar el gacha, para tener más intentos, habrán minijuegos que habrán que superar
+
+- Un sistema online para crear una pequeña red social, donde puedas compartir tu biblioteca, así como un foro para los usuarios.
+
+- Al principio, los items de animes estarán todos juntos, al igual que en videojuegos, se podrá añadir un desplegable para que el usuario pueda elegir que
+  gacha de que anime o videojuego quiere jugar
+
+
+
+Desarrollo de la App por fases:
+
+App Básica:
+
+- Crear UI básica con Figma (Inicio > Sign-In/Sign-Up > Paginas de explicación de la App > una opción en una barra de
+  navegación superior donde podamos elegir si acceder a la biblioteca de items obtenidos o al apartado de gacha > 2 botones
+  centrados "Anime" y "videojuegos" > 3 botones (Probar suerte > Iniciará el gacha // Mi biblioteca > Vamos a la visualización de los
+  items // Borrar biblioteca (Elimina los items obtenidos))
+
+- Pasar la UI de figma a Android Studio y conseguir que funcione.
+
+- Crear 2 bases de datos, una para las cartas, otra para los usuarios.
+
+- Implementar un inicio de sesión para vincular los items obtenidos con el usuario, usando BD.
+
+- Implementar un sistema de navegación.
+
+
+App Avanzado:
+
+- Crear cartas de prueba y añadirlas a la base de datos (La carta contendrá: Nombre, Calidad, imagen, color rareza y descripción)
+
+- Hacer que salgan las cartas de la BD, se visualizen y se almacenen en la biblioteca
+
+- Implementar opción de reset de la base de datos (perderá todos los personajes obtenidos)
+
+App Perfeccionista:
+
+
+
+App Completa:
