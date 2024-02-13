@@ -5,7 +5,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.proyectopmdm_din.views.Home
 import com.example.proyectopmdm_din.views.Inicio
+import com.example.proyectopmdm_din.views.LogIn
+import com.example.proyectopmdm_din.views.SignUp
 
 @Composable
 fun NavManager() {
@@ -15,16 +18,16 @@ fun NavManager() {
 
     NavHost(navController = navController, startDestination = "Blank" ){
         composable("Sign-Up"){
-            Inicio(navController)
+            SignUp(navController)
         }
         composable("Login"){
-
+            LogIn(navController)
         }
         composable("Home"){
-
+            Home(navController)
         }
         composable("inicio"){
-
+            Inicio(navController)
         }
         composable("MiBilioteca"){
 
