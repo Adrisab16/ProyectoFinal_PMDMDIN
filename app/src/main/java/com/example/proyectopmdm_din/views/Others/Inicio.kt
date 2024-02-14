@@ -1,4 +1,4 @@
-package com.example.proyectopmdm_din.views
+package com.example.proyectopmdm_din.views.Others
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
