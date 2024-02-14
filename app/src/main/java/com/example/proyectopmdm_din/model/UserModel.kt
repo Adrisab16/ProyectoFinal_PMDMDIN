@@ -6,6 +6,10 @@ package com.example.proyectopmdm_din.model
  */
 data class UserModel(
     val userId: String,
+    val userDNI: String,
     val email: String,
     val username: String,
+    val age:Int,
+    val password:String,
+    val address: String
 )
