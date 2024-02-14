@@ -1,0 +1,232 @@
+{
+  "name": "card_preview_template_for_android_studio",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "yMCglh7jCkLvXRikPzNTN7",
+    "node": "12:657",
+    "version": "5147222602",
+    "component-id": "36163844a0d2448b42ed41209acda52fb89359f9"
+  },
+  "default": "CardPreviewTemplateForAndroidStudio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "CardPreviewBackgroung&Border"
+      },
+      {
+        "type": "group",
+        "id": "CardPreviewTitle&Border"
+      },
+      {
+        "type": "group",
+        "id": "CardPreviewImage&Border"
+      },
+      {
+        "type": "vector",
+        "id": "CardPreviewBackgroundBorder"
+      },
+      {
+        "type": "vector",
+        "id": "CardPreviewBackground"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 18"
+      },
+      {
+        "type": "text",
+        "id": "Personaje Name"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 17"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 19"
+      }
+    ],
+    "modes": {
+      "CardPreviewTemplateForAndroidStudio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "CardPreviewBackgroung&Border",
+              "CardPreviewTitle&Border",
+              "CardPreviewImage&Border"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "CardPreviewBackgroung&Border",
+            "border-radius": 11.0,
+            "is-structured": false,
+            "children": [
+              "CardPreviewBackgroundBorder",
+              "CardPreviewBackground"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "CardPreviewTitle&Border",
+            "margin": {
+              "left": 7.0,
+              "top": 10.0,
+              "right": 7.0,
+              "bottom": 108.0
+            },
+            "border-radius": 5.0,
+            "is-structured": false,
+            "children": [
+              "Rectangle 18",
+              "Personaje Name"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "CardPreviewImage&Border",
+            "margin": {
+              "left": 12.0,
+              "top": 36.0,
+              "right": 12.0,
+              "bottom": 12.0
+            },
+            "border-radius": 5.0,
+            "is-structured": false,
+            "children": [
+              "Rectangle 17",
+              "Rectangle 19"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "CardPreviewBackgroundBorder",
+            "border-radius": 11.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "card_preview_background_border.svg"
+          },
+          {
+            "id": "CardPreviewBackground",
+            "margin": 4.0,
+            "border-radius": 11.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "card_preview_background.svg"
+          },
+          {
+            "id": "Rectangle 18",
+            "border-radius": 5.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_18.svg"
+          },
+          {
+            "id": "Personaje Name",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 900.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Personaje Name",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 9.0,
+            "line-height": 1.2102272245619032,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 17",
+            "border-radius": 5.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_17.svg"
+          },
+          {
+            "id": "Rectangle 19",
+            "margin": 4.0,
+            "border-radius": 5.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "rectangle_19.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "CardPreviewTemplateForAndroidStudio",
+      "size": {
+        "width": 96.0,
+        "height": 136.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
