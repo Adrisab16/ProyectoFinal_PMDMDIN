@@ -51,9 +51,10 @@ com.example.proyectopmdm_din.app-ui-tooling-preview-release-49 C:\Users\usuariot
 com.example.proyectopmdm_din.app-navigation-common-ktx-2.7.7-50 C:\Users\usuariot\.gradle\caches\transforms-3\f4b8617e63f19ca986e84c4de00e7128\transformed\navigation-common-ktx-2.7.7\res
 com.example.proyectopmdm_din.app-material-release-51 C:\Users\usuariot\.gradle\caches\transforms-3\fd4835d0a273fe10daf71d02185f24d6\transformed\material-release\res
 com.example.proyectopmdm_din.app-activity-1.8.2-52 C:\Users\usuariot\.gradle\caches\transforms-3\fdab0ea5bd03d2f6bc9c2d6111f8148e\transformed\activity-1.8.2\res
-com.example.proyectopmdm_din.app-resValues-53 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\generated\res\resValues\debug
-com.example.proyectopmdm_din.app-packageDebugResources-54 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.proyectopmdm_din.app-packageDebugResources-55 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.proyectopmdm_din.app-merged_res-56 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\merged_res\debug
-com.example.proyectopmdm_din.app-debug-57 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\src\debug\res
-com.example.proyectopmdm_din.app-main-58 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\src\main\res
+com.example.proyectopmdm_din.app-relay-53 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\generated\res\relay\debug
+com.example.proyectopmdm_din.app-resValues-54 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\generated\res\resValues\debug
+com.example.proyectopmdm_din.app-packageDebugResources-55 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.proyectopmdm_din.app-packageDebugResources-56 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.proyectopmdm_din.app-merged_res-57 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\build\intermediates\merged_res\debug
+com.example.proyectopmdm_din.app-debug-58 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\src\debug\res
+com.example.proyectopmdm_din.app-main-59 C:\Users\usuariot\AndroidStudioProjects\ProyectoPMDMDIN\app\src\main\res

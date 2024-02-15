@@ -7,14 +7,14 @@ import androidx.navigation.compose.rememberNavController
 import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaAnime
 import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaGeneral
 import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaVideojuegos
-import com.example.proyectopmdm_din.views.Biblioteca.MiBilioteca
+import com.example.proyectopmdm_din.views.Biblioteca.MiBiblioteca
 import com.example.proyectopmdm_din.views.Others.BlankView
 import com.example.proyectopmdm_din.views.Gacha.GachaAnime
 import com.example.proyectopmdm_din.views.Gacha.GachaGeneral
 import com.example.proyectopmdm_din.views.Gacha.GachaVideojuegos
+import com.example.proyectopmdm_din.views.Gacha.MenuGacha
 import com.example.proyectopmdm_din.views.Gacha.ResultadoGacha
 import com.example.proyectopmdm_din.views.Others.Home
-import com.example.proyectopmdm_din.views.Others.Inicio
 import com.example.proyectopmdm_din.views.Login.LogIn
 import com.example.proyectopmdm_din.views.Login.SignUp
 import com.example.proyectopmdm_din.views.Gacha.ShowCard
@@ -38,11 +38,8 @@ fun NavManager() {
         composable("Home"){
             Home(navController)
         }
-        composable("inicio"){
-            Inicio(navController)
-        }
-        composable("MiBilioteca"){
-            MiBilioteca(navController)
+        composable("MiBiblioteca"){
+            MiBiblioteca(navController)
         }
         composable("BibliotecaAnime"){
             BibliotecaAnime(navController)
@@ -55,6 +52,9 @@ fun NavManager() {
         }
         composable("ShowCard"){
             ShowCard(navController)
+        }
+        composable("MenuGacha"){
+            MenuGacha(navController)
         }
         composable("GachaGeneral"){
             GachaGeneral(navController)

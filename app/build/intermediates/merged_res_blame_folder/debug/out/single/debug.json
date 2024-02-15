@@ -1,66 +1,334 @@
 [
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_card_image_border.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_card_image_border.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_card_description.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_card_description.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_preview_template_for_android_studio_rectangle_17.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_preview_template_for_android_studio_rectangle_17.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_rectangle_3.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_rectangle_3.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_nav_field_button_gacha.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\nav_field_button_gacha.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_pngegg_4.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_pngegg_4.png"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_23.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_23.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_5.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_5.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_preview_template_for_android_studio_card_preview_background.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_preview_template_for_android_studio_card_preview_background.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_bold.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_bold.ttf"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_nav_field_button_biblioteca.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\nav_field_button_biblioteca.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_character_name_border.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_character_name_border.xml"
     },
     {
-        "merged": "com.example.proyectopmdm_din.app-merged_res-57:/xml_backup_rules.xml.flat",
-        "source": "com.example.proyectopmdm_din.app-main-59:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_rectangle_6.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_rectangle_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_rectangle_22.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_rectangle_22.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_8.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_light.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_rectangle_4.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_rectangle_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_back_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_back_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_black.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_6.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_preview_template_for_android_studio_card_preview_background_border.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_preview_template_for_android_studio_card_preview_background_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_22.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_22.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_rectangle_11.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_rectangle_11.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_pngegg_5.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_pngegg_5.png"
+    },
+    {
+        "merged": "com.example.proyectopmdm_din.app-merged_res-58:/drawable-nodpi_sign_in_field_rectangle_3.xml.flat",
+        "source": "com.example.proyectopmdm_din.app-relay-54:/drawable-nodpi/sign_in_field_rectangle_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_26.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_26.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_semibold.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_9.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_9.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_pngegg_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_pngegg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_image_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_image_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_videogame_icon.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_videogame_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_rarity_icon.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_rarity_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_rectangle_23.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_rectangle_23.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_image_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_image_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_3.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_back_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_back_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_medium.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_rectangle_24.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_rectangle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_extralight.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_extralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_vector.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_rectangle_15.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_rectangle_15.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_for_android_studio_button_background.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_for_android_studio_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_julee_regular.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_julee_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_rarity_icon_border.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_rarity_icon_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_nav_field_button_inicio.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\nav_field_button_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectopmdm_din.app-merged_res-58:/drawable-nodpi_sign_in_field_rectangle_4.xml.flat",
+        "source": "com.example.proyectopmdm_din.app-relay-54:/drawable-nodpi/sign_in_field_rectangle_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_extrabold.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_pngegg_2.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_pngegg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_25.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_25.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_vector.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_regular.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_back_log_out_for_android_studio_rectangle_25.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_back_log_out_for_android_studio_rectangle_25.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_rectangle_7.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_rectangle_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_4.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_header_header_button.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\header_header_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_card_image.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_card_image.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_preview_template_for_android_studio_rectangle_18.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_preview_template_for_android_studio_rectangle_18.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_27.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_27.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_pngegg_1.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_pngegg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_pngegg_3.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_pngegg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_up_field_rectangle_7.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_up_field_rectangle_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_button_logout_back_delete_for_android_studio_rectangle_24.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\button_logout_back_delete_for_android_studio_rectangle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\font_relay_inter_thin.ttf.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\font\\relay_inter_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_template_for_android_studio_videogame_border.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_template_for_android_studio_videogame_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_sign_in_field_rectangle_5.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\sign_in_field_rectangle_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_descripcion_inicio_rectangle_26.xml.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\descripcion_inicio_rectangle_26.xml"
+    },
+    {
+        "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-58:\\drawable-nodpi_card_preview_template_for_android_studio_rectangle_19.png.flat",
+        "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-54:\\drawable-nodpi\\card_preview_template_for_android_studio_rectangle_19.png"
     }
 ]
