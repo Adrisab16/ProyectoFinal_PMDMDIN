@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
     id("com.google.relay") version "0.3.11"
 }
 
@@ -77,4 +78,5 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx:22.3.1")
     // DCS - Base de datos Firestore
     implementation("com.google.firebase:firebase-firestore-ktx:24.10.2")
+    implementation("com.google.firebase:firebase-analytics")
 }

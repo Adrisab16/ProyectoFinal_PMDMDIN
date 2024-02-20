@@ -108,6 +108,8 @@ class LoginViewModel: ViewModel() {
     private fun saveUser(username: String){
         val id = auth.currentUser?.uid
         val email = auth.currentUser?.email
+        val pwd = auth.currentUser?.email
+
 
         viewModelScope.launch(Dispatchers.IO) {
             /*val user = UserModel(

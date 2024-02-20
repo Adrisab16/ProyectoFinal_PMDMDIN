@@ -4,23 +4,24 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaAnime
-import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaGeneral
-import com.example.proyectopmdm_din.views.Biblioteca.BibliotecaVideojuegos
-import com.example.proyectopmdm_din.views.Biblioteca.MiBiblioteca
-import com.example.proyectopmdm_din.views.Others.BlankView
-import com.example.proyectopmdm_din.views.Gacha.GachaAnime
-import com.example.proyectopmdm_din.views.Gacha.GachaGeneral
-import com.example.proyectopmdm_din.views.Gacha.GachaVideojuegos
-import com.example.proyectopmdm_din.views.Gacha.MenuGacha
-import com.example.proyectopmdm_din.views.Gacha.ResultadoGacha
-import com.example.proyectopmdm_din.views.Others.Home
-import com.example.proyectopmdm_din.views.Login.LogIn
-import com.example.proyectopmdm_din.views.Login.SignUp
-import com.example.proyectopmdm_din.views.Gacha.ShowCard
+import com.example.proyectopmdm_din.viewModels.LoginViewModel
+import com.example.proyectopmdm_din.screens.Biblioteca.BibliotecaAnime
+import com.example.proyectopmdm_din.screens.Biblioteca.BibliotecaGeneral
+import com.example.proyectopmdm_din.screens.Biblioteca.BibliotecaVideojuegos
+import com.example.proyectopmdm_din.screens.Biblioteca.MiBiblioteca
+import com.example.proyectopmdm_din.screens.Others.BlankView
+import com.example.proyectopmdm_din.screens.Gacha.GachaAnime
+import com.example.proyectopmdm_din.screens.Gacha.GachaGeneral
+import com.example.proyectopmdm_din.screens.Gacha.GachaVideojuegos
+import com.example.proyectopmdm_din.screens.Gacha.MenuGacha
+import com.example.proyectopmdm_din.screens.Gacha.ResultadoGacha
+import com.example.proyectopmdm_din.screens.Others.Home
+import com.example.proyectopmdm_din.screens.Login.LogIn
+import com.example.proyectopmdm_din.screens.Login.SignUp
+import com.example.proyectopmdm_din.screens.Biblioteca.ShowCard
 
 @Composable
-fun NavManager() {
+fun NavManager(loginVM: LoginViewModel) {
     // DCS - Configuración del sistema de navegación y definición de las rutas.
 
     val navController = rememberNavController()
@@ -30,10 +31,10 @@ fun NavManager() {
             BlankView(navController)
         }
         composable("Sign-Up"){
-            SignUp(navController)
+            SignUp(navController, loginVM)
         }
         composable("Login"){
-            LogIn(navController)
+            LogIn(navController, loginVM)
         }
         composable("Home"){
             Home(navController)

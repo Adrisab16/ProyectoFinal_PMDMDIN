@@ -420,6 +420,11 @@ string expanded
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string in_progress
 string indeterminate
 string m3c_bottom_sheet_pane_title
@@ -427,6 +432,7 @@ string navigation_menu
 string not_selected
 string off
 string on
+string project_id
 string range_end
 string range_start
 string search_bar_search
@@ -483,4 +489,5 @@ styleable Navigator android_label android_id route
 styleable SignInButton buttonSize colorScheme scopeUris
 xml backup_rules
 xml data_extraction_rules
+xml ga_ad_services_config
 xml image_share_filepaths
