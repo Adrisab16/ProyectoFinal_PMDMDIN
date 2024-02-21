@@ -24,14 +24,27 @@ import com.example.proyectopmdm_din.cardpreviewtemplateforandroidstudio.CardPrev
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
+/**
+ * @Composable función para representar la pantalla de la biblioteca de videojuegos.
+ *
+ * Esta función toma un [NavController] como parámetro para gestionar la navegación entre pantallas.
+ *
+ * @param navController Controlador de navegación para gestionar el flujo de navegación.
+ *
+ * La pantalla incluye una barra de navegación con botones para acceder a "Mi Biblioteca", "Inicio" y "Menú Gacha".
+ * Además, muestra una lista de botones que representan cartas de videojuegos obtenidas por el usuario.
+ * El diseño permite agregar más botones dinámicamente según las cartas obtenidas.
+ * También incluye un botón de retroceso y cierre de sesión en la parte inferior.
+ */
 @Composable
 fun BibliotecaVideojuegos(navController: NavController){
+    // Columna principal que ocupa toda la pantalla y tiene un fondo negro.
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Black)
     ) {
-        // Primer Row en la parte superior
+        // Primer Row en la parte superior que contiene el encabezado.
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -41,13 +54,14 @@ fun BibliotecaVideojuegos(navController: NavController){
             Header()
         }
 
-        // Segundo bloque con NavField
+        // Segundo bloque que contiene la barra de navegación.
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(100.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            // Barra de navegación con botones para Mi Biblioteca, Inicio y Menú Gacha.
             NavField(
                 navButtonBiblioteca = { navController.navigate("MiBiblioteca") },
                 navButtonInicio = { navController.navigate("Home") },
@@ -55,62 +69,68 @@ fun BibliotecaVideojuegos(navController: NavController){
             )
         }
 
-        // LazyColumn con botones
+        // Tercer bloque que contiene la lista de botones de la biblioteca de videojuegos.
         LazyColumn(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
         ) {
             item {
-                // Fila 1 con los primeros 3 botones
-                // Es un ejemplo de visualización, ya que se irán añadiendo
-                // según las cartas que el usuario haya conseguido
+                // Fila 1 con los primeros 3 botones.
+                // Ejemplo de visualización; se agregarán más según las cartas obtenidas por el usuario.
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(8.dp),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
+                    // Se muestra una plantilla de vista previa de tarjeta para Android Studio.
                     CardPreviewTemplateForAndroidStudio(
                         modifier = Modifier
                             .weight(1f)
                             .padding(8.dp)
                     )
-                    CardPreviewTemplateForAndroidStudio(
-                        modifier = Modifier
-                            .weight(1f)
-                            .padding(8.dp)
-                    )
-                    CardPreviewTemplateForAndroidStudio(
-                        modifier = Modifier
-                            .weight(1f)
-                            .padding(8.dp)
-                    )
+
+                    // Se pueden agregar más instancias de CardPreviewTemplateForAndroidStudio aquí.
+                    // Por ejemplo, para cada nueva carta obtenida por el usuario.
+
+                    // CardPreviewTemplateForAndroidStudio(
+                    //     modifier = Modifier
+                    //         .weight(1f)
+                    //         .padding(8.dp)
+                    // )
+
+                    // CardPreviewTemplateForAndroidStudio(
+                    //     modifier = Modifier
+                    //         .weight(1f)
+                    //         .padding(8.dp)
+                    // )
                 }
             }
 
-            // Se puede agregar más items aquí con las siguientes filas de botones
+            // Se pueden agregar más ítems aquí para las siguientes filas de botones.
 
             // item {
-            //     // Fila 2 con los siguientes 3 botones
-            //     ...
+            //     // Fila 2 con los siguientes 3 botones.
+            //     // ...
             // }
 
             // item {
-            //     // Fila 3 con los siguientes 3 botones
-            //     ...
+            //     // Fila 3 con los siguientes 3 botones.
+            //     // ...
             // }
 
-            // y así sucesivamente...
+            // Y así sucesivamente...
         }
 
-        // Cuarto bloque con ButtonBackLogOutForAndroidStudio
+        // Cuarto bloque que contiene el botón de retroceso y cierre de sesión.
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(100.dp),
             verticalAlignment = Alignment.Bottom
         ) {
+            // Botón de retroceso y cierre de sesión.
             ButtonBackLogOutForAndroidStudio(
                 modifier = Modifier.fillMaxWidth(),
                 buttonLogOut = { navController.navigate("login") },

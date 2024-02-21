@@ -36,7 +36,7 @@ fun NavManager(loginVM: LoginViewModel) {
     val navController = rememberNavController()
 
     // Se configuran las rutas y se asocian con las respectivas funciones que muestran las vistas.
-    NavHost(navController = navController, startDestination = "BibliotecaVideojuegos") {
+    NavHost(navController = navController, startDestination = "Blank") {
         composable("Blank") {
             // Muestra la vista correspondiente a la pantalla Blank.
             BlankView(navController)
