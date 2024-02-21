@@ -100,6 +100,10 @@
         "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-58:\\drawable-nodpi\\button_back_log_out_for_android_studio_rectangle_24.xml"
     },
     {
+        "merged": "com.example.proyectopmdm_din.app-merged_res-62:/drawable-nodpi_description_for_android_studio_rectangle_26.xml.flat",
+        "source": "com.example.proyectopmdm_din.app-relay-58:/drawable-nodpi/description_for_android_studio_rectangle_26.xml"
+    },
+    {
         "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-62:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-main-64:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -290,6 +294,10 @@
     {
         "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-62:\\drawable-nodpi_button_back_log_out_for_android_studio_back_1.png.flat",
         "source": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-relay-58:\\drawable-nodpi\\button_back_log_out_for_android_studio_back_1.png"
+    },
+    {
+        "merged": "com.example.proyectopmdm_din.app-merged_res-62:/drawable-nodpi_description_for_android_studio_rectangle_28.xml.flat",
+        "source": "com.example.proyectopmdm_din.app-relay-58:/drawable-nodpi/description_for_android_studio_rectangle_28.xml"
     },
     {
         "merged": "C:\\Users\\usuariot\\.gradle\\daemon\\8.2\\com.example.proyectopmdm_din.app-merged_res-62:\\drawable-nodpi_card_template_for_android_studio_card_image.png.flat",

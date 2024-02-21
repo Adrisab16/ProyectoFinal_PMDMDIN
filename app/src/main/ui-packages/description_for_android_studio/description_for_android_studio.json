@@ -1,0 +1,170 @@
+{
+  "name": "description_for_android_studio",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "yMCglh7jCkLvXRikPzNTN7",
+    "node": "87:506",
+    "version": "5199244735",
+    "component-id": "4b14c95394f9fdd4eb02c6a320dbfd77a14cdebf"
+  },
+  "default": "DescriptionForAndroidStudio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "DescriptionBox"
+      },
+      {
+        "type": "group",
+        "id": "top_level_synth"
+      },
+      {
+        "type": "text",
+        "id": "DescTxt"
+      },
+      {
+        "type": "group",
+        "id": "DescriptionBox_synth"
+      }
+    ],
+    "modes": {
+      "DescriptionForAndroidStudio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 6.0,
+            "is-structured": false,
+            "children": [
+              "DescriptionBox",
+              "top_level_synth"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.47058823529411764
+            }
+          },
+          {
+            "id": "DescriptionBox",
+            "border-radius": 6.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 8.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "DescTxt",
+              "DescriptionBox_synth"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.015624999999999944,
+              "value": 0.7529411764705882
+            },
+            "clip-content": false
+          },
+          {
+            "id": "top_level_synth",
+            "opacity": 100.0,
+            "padding": 8.0,
+            "border-radius": 6.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink",
+                "min": 328.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink",
+                "min": 570.63525390625
+              }
+            },
+            "arrangement": "row",
+            "item-spacing": 10.0
+          },
+          {
+            "id": "DescTxt",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.682373046875
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 296.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 364.0
+              }
+            },
+            "text-content": "aasdmsadpomsapodposadmpsamdpsaomdpsaomdpsoamdpoampomaspodmaspomdoasmdpaosmdpasomdpasodmpasomdapsodmapsomdpoa",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.2102272245619032,
+            "typeface": "Inter"
+          },
+          {
+            "id": "DescriptionBox_synth",
+            "opacity": 100.0,
+            "padding": 10.0,
+            "border-radius": 6.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink",
+                "min": 312.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink",
+                "min": 554.63525390625
+              }
+            },
+            "item-spacing": 10.0,
+            "clip-content": false
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "DescriptionForAndroidStudio",
+      "size": {
+        "width": 328.0,
+        "height": 570.63525390625
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

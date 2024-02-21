@@ -95,6 +95,16 @@ fun SignUp(navController: NavController, loginVM: LoginViewModel) {
         ) {
             Text(text = "Registrarse")
         }
+        // Botón para navegar a la pantalla de registro.
+        Button(
+            onClick = {
+                navController.navigate("Login")
+            }, modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 30.dp, end = 30.dp)
+        ) {
+            Text(text = "Iniciar sesión")
+        }
 
         // Se muestra un diálogo de alerta si [LoginViewModel.showAlert] es true.
         if (loginVM.showAlert) {
