@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "yMCglh7jCkLvXRikPzNTN7",
     "node": "12:657",
-    "version": "5168231635",
+    "version": "5198581630",
     "component-id": "36163844a0d2448b42ed41209acda52fb89359f9"
   },
   "default": "CardPreviewTemplateForAndroidStudio",
@@ -31,10 +31,6 @@
       {
         "type": "group",
         "id": "CardPreviewBackgroung&Border"
-      },
-      {
-        "type": "vector",
-        "id": "CardPreviewBackgroundBorder"
       },
       {
         "type": "vector",
@@ -125,51 +121,42 @@
           },
           {
             "id": "CardPreviewBackgroung&Border",
+            "padding": 4.0,
             "border-radius": 11.0,
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": 96.0
+                "sizing-mode": "shrink"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": 136.0
+                "sizing-mode": "shrink"
               }
             },
-            "is-structured": false,
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
             "children": [
-              "CardPreviewBackgroundBorder",
               "CardPreviewBackground"
             ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4980392156862745
+            },
             "clip-content": false
           },
           {
-            "id": "CardPreviewBackgroundBorder",
-            "border-radius": 11.0,
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
-              },
-              "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
-              }
-            },
-            "vector-content": "card_preview_background_border.svg"
-          },
-          {
             "id": "CardPreviewBackground",
-            "margin": 4.0,
             "border-radius": 11.0,
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 88.0
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 128.0
               }
             },
             "vector-content": "card_preview_background.svg"
@@ -177,28 +164,48 @@
           {
             "id": "Rectangle 18",
             "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 82.0
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 18.0
               }
             },
             "vector-content": "rectangle_18.svg"
           },
           {
             "id": "Personaje Name",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 82.0
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 18.0
               }
             },
             "font-weight": 900.0,
@@ -219,30 +226,49 @@
           {
             "id": "Rectangle 17",
             "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 72.0
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 88.0
               }
             },
             "vector-content": "rectangle_17.svg"
           },
           {
             "id": "Rectangle 19",
-            "margin": 4.0,
             "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 64.0
               },
               "height-constraints": {
-                "sizing-mode": "proportional",
-                "value": 1.0
+                "sizing-mode": "fixed",
+                "value": 80.0
               }
             },
             "image-content": "rectangle_19.png",

@@ -10,20 +10,34 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackLogOutForAndroidStudio
+import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
+/**
+ * @Composable función para mostrar la pantalla principal de la screen MiBiblioteca.
+ *
+ * Esta pantalla contiene un encabezado, opciones de navegación, botones centrados y un
+ * bloque de cierre de sesión.
+ *
+ * @param navController Controlador de navegación para gestionar las transiciones entre pantallas.
+ */
+
 @Composable
 fun MiBiblioteca(navController: NavController){
-    Column(modifier = Modifier
-        .fillMaxSize()
-        .background(Color.Black)
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black)
     ) {
-        // Primer Row en la parte superior
+        // Bloque 1: Encabezado
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -32,30 +46,49 @@ fun MiBiblioteca(navController: NavController){
         ) {
             Header()
         }
-        Row(modifier = Modifier
-            .fillMaxWidth()
-            .height(100.dp)) {
+
+        // Bloque 2: Opciones de navegación
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(100.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             NavField(
-                navButtonBiblioteca = {navController.navigate("MiBiblioteca")},
-                navButtonInicio = {navController.navigate("Home")},
-                navButtonGacha = {navController.navigate("menuGacha")}
+                navButtonBiblioteca = { navController.navigate("MiBiblioteca") },
+                navButtonInicio = { navController.navigate("Home") },
+                navButtonGacha = { navController.navigate("MenuGacha") }
             )
+        }
+
+        // Bloque 3: Botones centrados
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .weight(1f),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Botones centrados
+            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
+            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
+            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
         }
 
         // Espacio en el centro
         Spacer(modifier = Modifier.weight(1f))
 
-        // Segundo Row en la parte inferior
+        // Bloque 4: Botón de cierre de sesión
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(100.dp),
-            verticalAlignment = Alignment.Bottom,
+            verticalAlignment = Alignment.Bottom
         ) {
             ButtonBackLogOutForAndroidStudio(
                 modifier = Modifier.fillMaxWidth(),
-                buttonLogOut = {navController.navigate("login") },
-                buttonBack = {navController.navigate("Home")}
+                buttonLogOut = { navController.navigate("login") },
+                buttonBack = { navController.navigate("Home") }
             )
         }
     }

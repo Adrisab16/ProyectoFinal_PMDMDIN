@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackLogOutForAndroidStudio
+import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
