@@ -23,33 +23,28 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import androidx.navigation.NavController
 import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackLogOutForAndroidStudio
 import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
 import com.example.proyectopmdm_din.header.Header
-import com.example.proyectopmdm_din.model.Card
 import com.example.proyectopmdm_din.navfield.NavField
 import com.example.proyectopmdm_din.viewModels.CardsViewModel
 import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.tasks.await
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 /**
- * @OptIn(DelicateCoroutinesApi::class)
- * @Composable función que representa la pantalla de eliminación de una carta.
+ * Composable que representa la pantalla de actualización de una carta.
  *
- * Permite al usuario introducir el título de la carta que desea eliminar. Al hacer clic en el botón de
- * eliminación, se llama a la función correspondiente en el ViewModel para eliminar la carta y luego
- * navega de vuelta al menú CRUD.
- *
- * @param navController Controlador de navegación para gestionar las transiciones entre pantallas.
- * @param cardsViewModel ViewModel que contiene la lógica para gestionar las cartas.
+ * @param navController NavController utilizado para la navegación entre pantallas.
+ * @param cardsViewModel Instancia de [CardsViewModel] que contiene la lógica de negocio relacionada con las cartas.
  */
 @OptIn(ExperimentalComposeUiApi::class, DelicateCoroutinesApi::class)
 @Composable
-fun EliminarCarta(navController: NavController, cardsViewModel: CardsViewModel) {
-    var cardTitle by remember { mutableStateOf("") }
+fun ActualizarCarta(navController: NavController, cardsViewModel: CardsViewModel) {
+    var oldTitle by remember { mutableStateOf("") }
+    var newTitle by remember { mutableStateOf("") }
+    var newDescription by remember { mutableStateOf("") }
 
     Column(
         modifier = Modifier
@@ -88,24 +83,30 @@ fun EliminarCarta(navController: NavController, cardsViewModel: CardsViewModel) 
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center) {
             TextField(
-                value = cardTitle,
-                onValueChange = { cardTitle = it },
-                label = { Text("Título de la carta a eliminar") },
+                value = oldTitle,
+                onValueChange = { oldTitle = it },
+                label = { Text("Título de la carta a actualizar") },
+            )
+            TextField(
+                value = newTitle,
+                onValueChange = { newTitle = it },
+                label = { Text("Nuevo título") },
+            )
+            TextField(
+                value = newDescription,
+                onValueChange = { newDescription = it },
+                label = { Text("Nueva descripción") },
             )
 
             Button(
                 onClick = {
                     // Llamar a la función suspendida desde un ámbito de coroutine
                     GlobalScope.launch {
-                        try {
-                            cardsViewModel.deleteCardByTitle("Título de la tarjeta a eliminar")
-                        } catch (_: Exception) {
-                        }
+                        cardsViewModel.updateCardByTitle(oldTitle, newTitle, newDescription)
                     }
-                    navController.navigate("CrudMenu")
                 }
             ) {
-                Text("Eliminar Carta")
+                Text("Actualizar Carta")
             }
         }
 

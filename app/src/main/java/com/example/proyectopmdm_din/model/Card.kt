@@ -5,6 +5,6 @@ package com.example.proyectopmdm_din.model
  */
 data class Card(
     val id: String,
-    val title: String,
-    val description: String
+    var title: String,
+    var description: String
 )

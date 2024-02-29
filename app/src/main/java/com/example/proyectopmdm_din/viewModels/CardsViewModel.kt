@@ -12,7 +12,7 @@ import kotlin.random.Random
  *
  * Esta clase maneja la interacción con Firestore y gestiona las listas locales de cartas y cartas del usuario.
  */
-class CardsViewModel : ViewModel() {
+class CardsViewModel() : ViewModel() {
     private val firestore = FirebaseFirestore.getInstance()
     val cardsCollection = firestore.collection("cards")
     private val userCardsCollection = firestore.collection("user_cards")
@@ -43,23 +43,79 @@ class CardsViewModel : ViewModel() {
     }
 
     /**
-     * Función suspendida para eliminar una tarjeta por su ID de Firestore y actualizar la lista local de tarjetas.
+     * Función suspendida para eliminar una tarjeta por su título tanto en Firestore como en la lista local.
      *
-     * @param cardId ID de la tarjeta a eliminar.
+     * @param cardTitle Título de la tarjeta que se desea eliminar.
+     * @throws Exception Se lanza si ocurre algún error durante la operación.
      */
-    suspend fun deleteCardById(cardId: String) {
-        // Buscar la tarjeta en la lista local por ID
-        val card = cards.find { it.title == cardId }
+    suspend fun deleteCardByTitle(cardTitle: String) {
+        try {
+            // Buscar la tarjeta en Firestore por título
+            val querySnapshot = cardsCollection.whereEqualTo("title", cardTitle).get().await()
 
-        // Si se encuentra la tarjeta, eliminarla
-        card?.let {
-            // Eliminar la tarjeta de Firestore
-            cardsCollection.document(it.title).delete().await()
+            // Si se encuentra la tarjeta, eliminarla
+            for (document in querySnapshot.documents) {
+                val card = document.toObject(Card::class.java)
+                card?.let {
+                    // Eliminar la tarjeta de Firestore
+                    cardsCollection.document(it.id).delete().await()
 
-            // Eliminar la tarjeta de la lista local
-            cards.remove(it)
+                    // Eliminar la tarjeta de la lista local
+                    cards.remove(it)
+                }
+            }
+        } catch (e: Exception) {
+            // Manejar la excepción de manera adecuada (puedes mostrar un mensaje de error, etc.)
+            // Log.e("CardsViewModel", "Error al eliminar la tarjeta: $e")
+            throw e
         }
     }
+
+    /**
+     * Función suspendida para actualizar una tarjeta por su título tanto en Firestore como en la lista local.
+     *
+     * @param title Título de la tarjeta que se desea actualizar.
+     * @param newTitle Nuevo título para la tarjeta.
+     * @param newDescription Nueva descripción para la tarjeta.
+     */
+    suspend fun updateCardByTitle(title: String, newTitle: String, newDescription: String) {
+        // Buscar la tarjeta en Firestore por título
+        val querySnapshot = cardsCollection.whereEqualTo("title", title).get().await()
+
+        // Si se encuentra la tarjeta, actualizarla
+        for (document in querySnapshot.documents) {
+            val card = document.toObject(Card::class.java)
+            card?.let {
+                // Actualizar la tarjeta en Firestore
+                cardsCollection.document(it.id).update(
+                    mapOf(
+                        "title" to newTitle,
+                        "description" to newDescription
+                    )
+                ).await()
+
+                // Actualizar la tarjeta en la lista local
+                it.title = newTitle
+                it.description = newDescription
+            }
+        }
+    }
+
+    /**
+     * Función suspendida para obtener todas las tarjetas tanto desde Firestore como desde la lista local.
+     *
+     * @return Lista de objetos [Card] que representan las tarjetas.
+     */
+    suspend fun getAllCards(): List<Card> {
+        // Obtener todas las tarjetas desde Firestore
+        val querySnapshot = cardsCollection.get().await()
+
+        // Mapear los documentos a objetos de tipo Card
+        return querySnapshot.documents.mapNotNull {
+            it.toObject(Card::class.java)
+        }
+    }
+
 
     /**
      * Función suspendida para agregar una tarjeta a la biblioteca del usuario en Firestore y actualizar la lista local

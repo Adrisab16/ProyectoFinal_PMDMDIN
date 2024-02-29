@@ -8,8 +8,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.SavedStateHandle
 import com.example.proyectopmdm_din.navigation.NavManager
 import com.example.proyectopmdm_din.ui.theme.ProyectoPMDMDINTheme
+import com.example.proyectopmdm_din.viewModels.CardsViewModel
 import com.example.proyectopmdm_din.viewModels.LoginViewModel
 import com.google.firebase.FirebaseApp
 
@@ -28,8 +30,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         // Inicializar Firebase
         FirebaseApp.initializeApp(this)
-        // Configurar el ViewModel para la gestión del login
+        // Configurar el ViewModel para la gestión del login y las cartas
         val loginVM : LoginViewModel by viewModels()
+        val cardsViewModel: CardsViewModel by viewModels()
         // Establecer el contenido de la actividad usando Compose
         setContent {
             ProyectoPMDMDINTheme {
@@ -39,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     // NavManager se encarga de la navegación y muestra la interfaz de usuario correspondiente
-                    NavManager(loginVM)
+                    NavManager(loginVM, cardsViewModel)
                 }
             }
         }

@@ -1,6 +1,7 @@
 package com.example.proyectopmdm_din.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.lifecycle.SavedStateHandle
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -20,8 +21,10 @@ import com.example.proyectopmdm_din.screens.Others.Home
 import com.example.proyectopmdm_din.screens.Login.LogIn
 import com.example.proyectopmdm_din.screens.Login.SignUp
 import com.example.proyectopmdm_din.screens.Biblioteca.ShowCard
+import com.example.proyectopmdm_din.screens.CRUD.ActualizarCarta
 import com.example.proyectopmdm_din.screens.CRUD.EliminarCarta
 import com.example.proyectopmdm_din.screens.CRUD.ImplementarCarta
+import com.example.proyectopmdm_din.screens.CRUD.MostrarCartas
 import com.example.proyectopmdm_din.viewModels.CardsViewModel
 
 /**
@@ -33,7 +36,7 @@ import com.example.proyectopmdm_din.viewModels.CardsViewModel
  * @param loginVM ViewModel para gestionar el estado y la lógica relacionada con la autenticación.
  */
 @Composable
-fun NavManager(loginVM: LoginViewModel) {
+fun NavManager(loginVM: LoginViewModel, cardsViewModel: CardsViewModel) {
     // DCS - Configuración del sistema de navegación y definición de las rutas.
 
     // Se crea el controlador de navegación que recordará el estado de la navegación.
@@ -108,6 +111,14 @@ fun NavManager(loginVM: LoginViewModel) {
         composable("EliminarCarta") {
             // Muestra la vista correspondiente a la pantalla de eliminación de las cartas en la bd.
             EliminarCarta(navController,CardsViewModel())
+        }
+        composable("ActualizarCarta") {
+            // Muestra la vista correspondiente a la pantalla de eliminación de las cartas en la bd.
+            ActualizarCarta(navController,CardsViewModel())
+        }
+        composable("MostrarCarta") {
+            // Muestra la vista correspondiente a la pantalla de eliminación de las cartas en la bd.
+            MostrarCartas(navController,CardsViewModel())
         }
     }
 }

@@ -19,6 +19,9 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackLogOutForAndroidStudio
+import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
+import com.example.proyectopmdm_din.header.Header
+import com.example.proyectopmdm_din.navfield.NavField
 import com.example.proyectopmdm_din.viewModels.CardsViewModel
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
@@ -49,14 +52,39 @@ fun ImplementarCarta(navController: NavController, cardsViewModel: CardsViewMode
             .fillMaxSize()
             .background(Color.Gray)
     ) {
+        // Primer Row en la parte superior
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(80.dp),
+            verticalAlignment = Alignment.Top
+        ) {
+            Header()
+        }
+
+        // Barra de navegación en la parte superior
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(100.dp)
+        ) {
+            NavField(
+                navButtonBiblioteca = { navController.navigate("MiBiblioteca") },
+                navButtonGacha = { navController.navigate("MenuGacha") }
+            )
+        }
+
+        // Espacio adicional en la parte superior
+        Spacer(modifier = Modifier.height(20.dp))
 
         // Formulario para introducir nuevas cartas
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp),
+                .padding(16.dp)
+                .weight(1f),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp)
+            verticalArrangement = Arrangement.Center
         ) {
             // Campo de texto para el título
             OutlinedTextField(
@@ -110,6 +138,10 @@ fun ImplementarCarta(navController: NavController, cardsViewModel: CardsViewMode
         // Espacio adicional en la parte inferior
         Spacer(modifier = Modifier.height(20.dp))
 
+
+        // Espacio adicional en la parte inferior
+        Spacer(modifier = Modifier.height(20.dp))
+
         // Segundo Row en la parte inferior
         Row(
             modifier = Modifier
@@ -120,7 +152,8 @@ fun ImplementarCarta(navController: NavController, cardsViewModel: CardsViewMode
             // Botón de retroceso y cierre de sesión
             ButtonBackLogOutForAndroidStudio(
                 modifier = Modifier.fillMaxWidth(),
-                buttonLogOut = { navController.navigate("login") },
+                buttonBack = {navController.navigate("CrudMenu")},
+                buttonLogOut = { navController.navigate("login") }
             )
         }
     }
