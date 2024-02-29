@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.proyectopmdm_din.app-mergeDebugResources-60:/values-nl/values-nl.xml",
+            "outputFile": "com.example.proyectopmdm_din.app-mergeDebugResources-61:/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\usuariot\\.gradle\\caches\\transforms-3\\d15315159ee3a73ac876f48501f089b2\\transformed\\play-services-basement-18.1.0\\res\\values-nl\\values.xml",

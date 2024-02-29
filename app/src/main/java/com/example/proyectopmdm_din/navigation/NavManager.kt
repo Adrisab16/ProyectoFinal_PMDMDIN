@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.proyectopmdm_din.screens.CRUD.CrudMenu
 import com.example.proyectopmdm_din.viewModels.LoginViewModel
 import com.example.proyectopmdm_din.screens.Biblioteca.BibliotecaAnime
 import com.example.proyectopmdm_din.screens.Biblioteca.BibliotecaGeneral
@@ -19,6 +20,9 @@ import com.example.proyectopmdm_din.screens.Others.Home
 import com.example.proyectopmdm_din.screens.Login.LogIn
 import com.example.proyectopmdm_din.screens.Login.SignUp
 import com.example.proyectopmdm_din.screens.Biblioteca.ShowCard
+import com.example.proyectopmdm_din.screens.CRUD.EliminarCarta
+import com.example.proyectopmdm_din.screens.CRUD.ImplementarCarta
+import com.example.proyectopmdm_din.viewModels.CardsViewModel
 
 /**
  * @Composable función para gestionar la navegación entre diferentes pantallas de la aplicación.
@@ -36,7 +40,7 @@ fun NavManager(loginVM: LoginViewModel) {
     val navController = rememberNavController()
 
     // Se configuran las rutas y se asocian con las respectivas funciones que muestran las vistas.
-    NavHost(navController = navController, startDestination = "Login") {
+    NavHost(navController = navController, startDestination = "Blank") {
         composable("Blank") {
             // Muestra la vista correspondiente a la pantalla Blank.
             BlankView(navController)
@@ -63,7 +67,7 @@ fun NavManager(loginVM: LoginViewModel) {
         }
         composable("BibliotecaGeneral") {
             // Muestra la vista correspondiente a la pantalla de la biblioteca general (BibliotecaGeneral).
-            BibliotecaGeneral(navController)
+            BibliotecaGeneral(navController, CardsViewModel())
         }
         composable("BibliotecaVideojuegos") {
             // Muestra la vista correspondiente a la pantalla de la biblioteca de videojuegos (BibliotecaVideojuegos).
@@ -79,7 +83,7 @@ fun NavManager(loginVM: LoginViewModel) {
         }
         composable("GachaGeneral") {
             // Muestra la vista correspondiente a la pantalla Gacha general (GachaGeneral).
-            GachaGeneral(navController)
+            GachaGeneral(navController, CardsViewModel())
         }
         composable("GachaVideojuegos") {
             // Muestra la vista correspondiente a la pantalla Gacha de videojuegos (GachaVideojuegos).
@@ -91,7 +95,19 @@ fun NavManager(loginVM: LoginViewModel) {
         }
         composable("ResultadoGacha") {
             // Muestra la vista correspondiente a la pantalla de resultados del Gacha (ResultadoGacha).
-            ResultadoGacha(navController)
+            ResultadoGacha(navController, CardsViewModel())
+        }
+        composable("crudmenu") {
+            // Muestra la vista correspondiente a la pantalla de menú del Crud de Firestore.
+            CrudMenu(navController)
+        }
+        composable("ImplementarCarta") {
+            // Muestra la vista correspondiente a la pantalla de implementación de las cartas en la bd.
+            ImplementarCarta(navController, CardsViewModel())
+        }
+        composable("EliminarCarta") {
+            // Muestra la vista correspondiente a la pantalla de eliminación de las cartas en la bd.
+            EliminarCarta(navController,CardsViewModel())
         }
     }
 }

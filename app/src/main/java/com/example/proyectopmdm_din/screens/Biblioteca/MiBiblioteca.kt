@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackLogOutForAndroidStudio
 import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
+import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonTxt
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
@@ -32,6 +33,7 @@ import com.example.proyectopmdm_din.navfield.NavField
 
 @Composable
 fun MiBiblioteca(navController: NavController){
+    val s = "General"
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -70,9 +72,29 @@ fun MiBiblioteca(navController: NavController){
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Botones centrados
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "General", // Aquí debería ir tu texto
+            ){ navController.navigate("BibliotecaGeneral") }
+
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "Videojuegos", // Aquí debería ir tu texto
+            ){ navController.navigate("BibliotecaVideojuegos") }
+
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "Anime", // Aquí debería ir tu texto
+            ){ navController.navigate("BibliotecaAnime") }
         }
 
         // Espacio en el centro

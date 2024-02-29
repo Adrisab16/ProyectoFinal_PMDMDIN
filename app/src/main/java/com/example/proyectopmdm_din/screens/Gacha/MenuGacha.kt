@@ -20,6 +20,7 @@ import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackL
 import com.example.proyectopmdm_din.buttonforandroidstudio.ButtonForAndroidStudio
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
+import kotlinx.coroutines.launch
 
 /**
  * @Composable función para mostrar la pantalla principal del menú Gacha.
@@ -70,10 +71,30 @@ fun MenuGacha(navController: NavController){
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Botones centrados
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
-            ButtonForAndroidStudio(modifier = Modifier.height(76.dp).width(236.dp).padding(10.dp))
-        }
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "General", // Aquí debería ir tu texto
+            ){ navController.navigate("GachaGeneral") }
+
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "Videojuegos", // Aquí debería ir tu texto
+            ){ navController.navigate("GachaVideojuegos") }
+
+            ButtonForAndroidStudio(
+                modifier = Modifier
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "Anime", // Aquí debería ir tu texto
+            ){ navController.navigate("GachaAnime") }
+
 
         // Espacio en el centro
         Spacer(modifier = Modifier.weight(1f))
@@ -92,4 +113,5 @@ fun MenuGacha(navController: NavController){
             )
         }
     }
+}
 }

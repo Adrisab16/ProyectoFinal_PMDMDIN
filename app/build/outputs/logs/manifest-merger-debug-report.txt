@@ -38,8 +38,6 @@ MERGED from [androidx.compose.ui:ui-test-manifest:1.5.1] C:\Users\usuariot\.grad
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\053e03562c6d2b33d72d1d5b419d92b4\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\2e3f89270cd16daf3a48712f5326d9f8\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\82783a1fddbe4f81b63b6137b0b26174\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\deaa226cca9ff06e7d5906c89e51ffdb\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\usuariot\.gradle\caches\transforms-3\fa219d0d4ecb4b060b9a9c5fe199f30e\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\usuariot\.gradle\caches\transforms-3\4a86fc8b78aa690e389241ed6ae183b6\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:17:1-46:12
@@ -72,6 +70,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\usuariot\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\38c362786de2ab24990d32dd646a9c88\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\efafa7eff538d06d6996740da42b6eee\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\19bfb0f1e124fe432652bd7037983692\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\fd22aab790aba80c49a6d7a7165db769\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\970aa5cd3b097bcb2b5bbc473a3f86d1\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\f62ed061417201404c84f4a5a2153971\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
@@ -90,6 +90,7 @@ MERGED from [androidx.core:core:1.12.0] C:\Users\usuariot\.gradle\caches\transfo
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\9022c7184683b7251664299016e53539\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\2d1bdcbc00da52573086690887a66caf\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\c989fc771320085bc19f327b085e7d9b\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\ac0f2ec06ea61e3030356e057a8edbe4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\usuariot\.gradle\caches\transforms-3\eb7c3b707d9dd7bf0551c3874ada5b48\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\usuariot\.gradle\caches\transforms-3\0e6a3d69984c975d2c050e646aa66059\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\3815f279cce0f28b9df8d0f987d68d59\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -293,10 +294,6 @@ MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\usuariot\.gradle
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\2e3f89270cd16daf3a48712f5326d9f8\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\82783a1fddbe4f81b63b6137b0b26174\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\usuariot\.gradle\caches\transforms-3\82783a1fddbe4f81b63b6137b0b26174\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\deaa226cca9ff06e7d5906c89e51ffdb\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\deaa226cca9ff06e7d5906c89e51ffdb\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\usuariot\.gradle\caches\transforms-3\fa219d0d4ecb4b060b9a9c5fe199f30e\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
@@ -361,6 +358,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\usuariot\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\efafa7eff538d06d6996740da42b6eee\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\19bfb0f1e124fe432652bd7037983692\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\19bfb0f1e124fe432652bd7037983692\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\7a8f1ae06ae94ea0967fee37a2705e73\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\usuariot\.gradle\caches\transforms-3\0652192f78350af1d9c15e9a6005a7b7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\fd22aab790aba80c49a6d7a7165db769\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\fd22aab790aba80c49a6d7a7165db769\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\970aa5cd3b097bcb2b5bbc473a3f86d1\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
@@ -397,6 +398,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\usua
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\2d1bdcbc00da52573086690887a66caf\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\c989fc771320085bc19f327b085e7d9b\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\usuariot\.gradle\caches\transforms-3\c989fc771320085bc19f327b085e7d9b\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\ac0f2ec06ea61e3030356e057a8edbe4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usuariot\.gradle\caches\transforms-3\ac0f2ec06ea61e3030356e057a8edbe4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\usuariot\.gradle\caches\transforms-3\eb7c3b707d9dd7bf0551c3874ada5b48\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\usuariot\.gradle\caches\transforms-3\eb7c3b707d9dd7bf0551c3874ada5b48\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\usuariot\.gradle\caches\transforms-3\0e6a3d69984c975d2c050e646aa66059\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44

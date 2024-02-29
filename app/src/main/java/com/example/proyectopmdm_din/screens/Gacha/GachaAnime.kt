@@ -17,6 +17,13 @@ import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackL
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
+/**
+ * @Composable función que representa la pantalla GachaAnime.
+ *
+ * Muestra una interfaz para el usuario con un encabezado, opciones de navegación y un botón de retroceso/cierre de sesión.
+ *
+ * @param navController Controlador de navegación para gestionar las transiciones entre pantallas.
+ */
 @Composable
 fun GachaAnime(navController: NavController){
     Column(modifier = Modifier
@@ -36,18 +43,9 @@ fun GachaAnime(navController: NavController){
             .fillMaxWidth()
             .height(100.dp)) {
             NavField(
-                navButtonBiblioteca = {
-                    // Lógica para el botón de back
-                    // Puedes navegar, realizar operaciones, etc.
-                },
-                navButtonInicio = {
-                    // Lógica para el botón de back
-                    // Puedes navegar, realizar operaciones, etc.
-                },
-                navButtonGacha = {
-                    // Lógica para el botón de logout
-                    // Puedes navegar, realizar operaciones, etc.
-                }
+                navButtonBiblioteca = { navController.navigate("MiBiblioteca") },
+                navButtonInicio = { navController.navigate("Home") },
+                navButtonGacha = { navController.navigate("MenuGacha") }
             )
         }
 
@@ -63,14 +61,8 @@ fun GachaAnime(navController: NavController){
         ) {
             ButtonBackLogOutForAndroidStudio(
                 modifier = Modifier.fillMaxWidth(),
-                buttonLogOut = {
-                    // Lógica para el botón de logout
-                    // Puedes navegar, realizar operaciones, etc.
-                },
-                buttonBack = {
-                    // Lógica para el botón de back
-                    // Puedes navegar, realizar operaciones, etc.
-                }
+                buttonLogOut = {navController.navigate("login") },
+                buttonBack = {navController.navigate("Home")}
             )
         }
     }

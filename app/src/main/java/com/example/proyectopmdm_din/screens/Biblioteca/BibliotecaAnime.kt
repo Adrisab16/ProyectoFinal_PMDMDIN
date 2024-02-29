@@ -17,6 +17,13 @@ import com.example.proyectopmdm_din.buttonbacklogoutforandroidstudio.ButtonBackL
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
+/**
+ * @Composable función que representa la pantalla de la biblioteca de anime.
+ *
+ * Esta pantalla contiene un encabezado, opciones de navegación, un espacio en el centro y un bloque de cierre de sesión.
+ *
+ * @param navController Controlador de navegación para gestionar las transiciones entre pantallas.
+ */
 @Composable
 fun BibliotecaAnime(navController: NavController){
     Column(modifier = Modifier
@@ -36,18 +43,9 @@ fun BibliotecaAnime(navController: NavController){
             .fillMaxWidth()
             .height(100.dp)) {
             NavField(
-                navButtonBiblioteca = {
-                    // Lógica para el botón de back
-                    // Puedes navegar, realizar operaciones, etc.
-                },
-                navButtonInicio = {
-                    // Lógica para el botón de back
-                    // Puedes navegar, realizar operaciones, etc.
-                },
-                navButtonGacha = {
-                    // Lógica para el botón de logout
-                    // Puedes navegar, realizar operaciones, etc.
-                }
+                navButtonBiblioteca = { navController.navigate("MiBiblioteca") },
+                navButtonInicio = { navController.navigate("Home") },
+                navButtonGacha = { navController.navigate("MenuGacha") }
             )
         }
 

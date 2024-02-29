@@ -10,7 +10,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 
 /**
- * Muestra un diálogo de alerta composable. Se utiliza para mostrar mensajes de error o confirmaciones.
+ * Composable que representa un cuadro de diálogo de alerta.
+ *
+ * Este cuadro de diálogo muestra un título, un mensaje y botones para confirmar o cancelar acciones.
+ *
+ * @param title Título del cuadro de diálogo.
+ * @param message Mensaje del cuadro de diálogo.
+ * @param confirmText Texto del botón de confirmación.
+ * @param onConfirmClick Lambda que se ejecuta al hacer clic en el botón de confirmación.
+ * @param onDismissClick Lambda que se ejecuta al cerrar o descartar el cuadro de diálogo.
  */
 @Composable
 fun Alert(
@@ -22,11 +30,14 @@ fun Alert(
 ) {
     // DCS - Estructura del diálogo de alerta.
 
+    // Estado de desplazamiento para el texto del mensaje
     val scroll = rememberScrollState(0)
 
+    // Creación del cuadro de diálogo de alerta
     AlertDialog(onDismissRequest = { onDismissClick() },
         title = { Text(text = title) },
         text = {
+            // Texto del mensaje con posibilidad de desplazamiento vertical
             Text(
                 text = message,
                 textAlign = TextAlign.Justify,

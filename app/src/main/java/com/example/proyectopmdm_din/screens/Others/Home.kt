@@ -28,6 +28,14 @@ import com.example.proyectopmdm_din.descriptionforandroidstudio.DescriptionForAn
 import com.example.proyectopmdm_din.header.Header
 import com.example.proyectopmdm_din.navfield.NavField
 
+/**
+ * @Composable función que representa la pantalla Home.
+ *
+ * Muestra la pantalla principal de la aplicación con un encabezado, una barra de navegación y un botón para acceder a
+ * la sección de ajustes (CrudMenu).
+ *
+ * @param navController Controlador de navegación para gestionar las transiciones entre pantallas.
+ */
 @Composable
 fun Home(navController: NavController) {
     Column(
@@ -60,20 +68,23 @@ fun Home(navController: NavController) {
         // Espacio adicional en la parte superior
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Columna centrada con DescriptionForAndroidStudio
         Column(
             modifier = Modifier
-                .weight(1f)
                 .fillMaxSize()
-                .padding(vertical = 20.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
+                .weight(1f),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            DescriptionForAndroidStudio(
+            // Botón para obtener una tarjeta aleatoria
+            ButtonForAndroidStudio(
                 modifier = Modifier
-                    .height(570.dp)
-                    .width(328.dp)
-            )
+                    .height(76.dp)
+                    .width(236.dp)
+                    .padding(10.dp),
+                buttonTxt = "Ajustes", // Aquí debería ir tu texto
+            ) {
+                navController.navigate("CrudMenu")
+            }
         }
 
         // Espacio adicional en la parte inferior
@@ -94,6 +105,7 @@ fun Home(navController: NavController) {
         }
     }
 }
+
 
 
 
